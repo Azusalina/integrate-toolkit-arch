@@ -15,7 +15,7 @@ python-gobject at-spi2-core`. Individual tools use Toolkit's existing optional
 dependencies: Chromium, FFmpeg, MarkItDown, Poppler/Pillow/NumPy, and XeLaTeX.
 
 ```bash
-cd /home/a/Documents/someProducts/integrate-toolkit-arch
+cd /home/a/Documents/products/integrate-toolkit-arch
 cmake -S native -B build
 cmake --build build
 python3 install.py install
@@ -72,3 +72,5 @@ Removal deletes only unchanged files owned by this installer. It preserves
 edited files, gesture preferences and all source/result documents. Rebuild and
 reinstall after a KWin upgrade or moving this checkout. The original Toolkit
 web service is independent of this integration.
+
+This is an independent repository at `/home/a/Documents/products/integrate-toolkit-arch`, published as [Azusalina/integrate-toolkit-arch](https://github.com/Azusalina/integrate-toolkit-arch). Run `git add`, `git commit`, and `git push` here. Its source has moved out of `someProducts`; hub pushes no longer publish this project.

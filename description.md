@@ -97,3 +97,7 @@ flags. The ignored build directory is not part of the source deliverable.
 - [KWin declarative effects](https://develop.kde.org/docs/plasma/kwineffect/)
 - [Dolphin accessibility view implementation](https://github.com/KDE/dolphin/blob/master/src/kitemviews/accessibility/kitemlistviewaccessible.cpp)
 - [Dolphin accessibility item implementation](https://github.com/KDE/dolphin/blob/master/src/kitemviews/accessibility/kitemlistdelegateaccessible.cpp)
+
+## Independent repository migration (2026-10-27)
+
+Source and existing local data moved to `/home/a/Documents/products/integrate-toolkit-arch`, retaining the product commit history. This checkout now owns its `.git` and `origin`; commit and push here independently. This supersedes the earlier hub-only or root-forwarded publication arrangement. Existing configuration locations, command names, and user data are preserved.
